@@ -1,0 +1,162 @@
+header {
+    background: linear-gradient(to right, #D7C4C4, #D3D3D3);
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    height: 100px; 
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 200px; 
+}
+
+header nav ul li a {
+    color: #291717; 
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 25px; 
+    padding: 14px 20px;
+    background-color: #FF8C91; 
+    border-radius: 20px; 
+    display: inline-block; 
+}
+
+header nav ul li a:hover {
+    background-color: #d78a7b; 
+    color: #fff; 
+    text-decoration: none; 
+}
+
+
+/* Modificaciones a las propiedades que solo se ven afectados cuando ingresan desde la tablet */
+
+/* Media queries para tabletas (768px a 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .logo img {
+        width: 50px; /* Ajusta según el diseño deseado */
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    nav ul li {
+        margin: 0 10px;
+    }
+
+    .main-image-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-image-text img {
+        width: 100%;
+        height: auto;
+    }
+
+    .text-side p {
+        text-align: center;
+        margin: 10px;
+    }
+
+    .news-gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .testimonial-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .testimonial {
+        flex: 1 1 45%;
+    }
+
+    footer {
+        padding: 10px;
+        text-align: center;
+    }
+
+    
+}
+
+/* Media queries para pantallas pequeñas (menores a 768px) */
+@media (max-width: 767px) {
+    .logo img {
+        max-width: 80px;
+    }
+
+    nav ul {
+        display: block;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .main-image-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-image-text img {
+        width: 100%;
+    }
+
+    .text-side p {
+        text-align: center;
+        margin: 10px;
+    }
+
+    .news-gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .testimonial-container {
+        align-items: center;
+    }
+
+    footer {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .contact-info, .about-us {
+        text-align: center;
+    }
+
+    .contact-info p, .about-us p {
+        margin: 5px 0;
+    }
+}

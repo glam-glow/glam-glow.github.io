@@ -1,0 +1,168 @@
+
+/* Estilos para la Sección de Misión y Visión */
+.mision-vision {
+    padding: 20px;
+    background-color: #f8f9fa; 
+    text-align: center;
+}
+
+/* Estilo para el título de la sección */
+.mision-vision h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #d63384; 
+}
+
+/* Contenedor para los ítems de misión y visión */
+.mision-vision-content {
+    display: flex;
+    flex-wrap: nowrap; 
+    gap: 20px; 
+    overflow-x: auto; 
+}
+
+/* Estilo para cada ítem de misión y visión */
+.mision-vision-item {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    gap: 20px; 
+    min-width: 300px;
+    padding: 20px; 
+    border-radius: 8px; 
+    box-sizing: border-box; 
+}
+
+/* Estilo para la imagen en cada ítem */
+.mision-vision-item .image {
+    max-width: 100px;
+    height: auto; 
+    border-radius: 8px; 
+}
+
+/* Estilo para el cuadro de texto */
+.mision-vision-item .text {
+    flex-grow: 1;
+    background-color: #d0d0d0; 
+    padding: 10px; 
+    border-radius: 8px;
+    box-sizing: border-box;
+    text-align: left; 
+}
+
+
+
+
+
+
+/* Para Tablets (max-width: 1023px) */
+@media (max-width: 1023px) {
+
+    .logo img {
+        max-width: 120px; /* Ajuste para tablets */
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .nosotros-container {
+        flex-direction: column;
+    }
+
+    .nosotros-image img {
+        max-width: 90%;
+    }
+
+    .mision-vision-content {
+        flex-direction: column;
+    }
+
+    .mision-vision-item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mision-vision-item .image {
+        max-width: 80px;
+    }
+
+    .valoracion-content {
+        flex-direction: column;
+    }
+}
+
+/* Para Teléfonos Móviles (max-width: 767px) */
+@media (max-width: 767px) {
+
+    /* Header */
+    .logo img {
+        max-width: 80px;
+    }
+
+    nav ul {
+        text-align: center;
+        padding: 0;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    /* Sección de nosotros */
+    .nosotros-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nosotros-image img {
+        width: 100%;
+    }
+
+    .nosotros-text {
+        text-align: center;
+    }
+
+    /* Historia de la Empresa */
+    .historia-contenedor {
+        flex-direction: column;
+    }
+
+    .imagen-item img {
+        width: 100%;
+    }
+
+    /* Misión y Visión */
+    .mision-vision-content {
+        flex-direction: column;
+    }
+
+    .mision-vision-item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mision-vision-item .image {
+        max-width: 60px;
+    }
+
+    /* Valoración de la Empresa */
+    .valoracion-content {
+        flex-direction: column;
+    }
+
+    /* Footer */
+    .contact-info, .about-us {
+        text-align: center;
+    }
+
+    .contact-info p, .about-us p {
+        margin: 5px 0;
+    }
+}

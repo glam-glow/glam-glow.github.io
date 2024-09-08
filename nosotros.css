@@ -1,0 +1,222 @@
+/* Estilos para la Página de "Nosotros" */
+
+
+.nosotros {
+    padding: 20px;
+    text-align: center;
+}
+
+.nosotros h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    background-color: #7E2D2D;
+    font-size: 2em;
+    margin: 0 auto 20px auto; 
+    color: #222021; 
+    background-color: #E3A8BF; 
+    padding: 20px;
+    text-align: center; 
+    width: fit-content;
+    max-width: 80%; 
+}
+
+
+
+.nosotros-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #ffffff; 
+}
+
+
+
+.nosotros-image {
+    flex: 1;
+    max-width: 700px; 
+}
+
+.nosotros-image img {
+    width: 70%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Estilo para el texto */
+.nosotros-text {
+    flex: 2;
+    max-width: 400px; 
+    padding: 0 20px;
+}
+
+.nosotros-text p {
+    line-height: 1.6;
+    font-size: 1em;
+    margin: 0;
+}
+
+
+
+/* PARA EL HTML NOSOTROS, HTML 2  */
+
+@media (max-width: 1023px) {
+
+    /* Ajuste del logo */
+    .logo img {
+        max-width: 120px; /* Ajuste para tablets */
+    }
+
+    /* Navegación */
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    /* Sección de Bienvenida */
+    .welcome h2 {
+        text-align: center;
+        font-size: 1.5em; /* Ajustar tamaño del texto si es necesario */
+    }
+
+    /* Imagen Principal y Texto al Costado */
+    .main-image-text {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-image-text img {
+        width: 90%; /* Ajuste para tablets */
+        max-width: 600px; /* Opcional: Ajuste máximo del tamaño de imagen */
+    }
+
+    .text-side p {
+        text-align: center;
+        font-size: 1em; /* Ajuste del tamaño del texto */
+    }
+
+    /* Novedades */
+    .news-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .news-item {
+        max-width: 100%;
+        margin: 10px;
+    }
+
+    .news-item img {
+        width: 100%; /* Ajustar tamaño de imagen */
+    }
+
+    .news-info {
+        text-align: center;
+    }
+
+    /* Testimonios */
+    .testimonial-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonial {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    /* Footer */
+    .contact-info, .about-us {
+        text-align: center;
+    }
+
+    .contact-info p, .about-us p {
+        margin: 20px 0;
+    }
+}
+
+/* Para Teléfonos Móviles (max-width: 767px) */
+@media (max-width: 767px) {
+
+    /* Ajuste del logo */
+    .logo img {
+        max-width: 80px; /* Ajuste para móviles */
+    }
+
+    /* Navegación */
+    nav ul {
+        text-align: center;
+        padding: 0;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    /* Sección de Bienvenida */
+    .welcome h2 {
+        font-size: 1.2em; /* Ajustar tamaño del texto */
+    }
+
+    /* Imagen Principal y Texto al Costado */
+    .main-image-text {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-image-text img {
+        width: 100%; /* Ajuste para móviles */
+    }
+
+    .text-side p {
+        font-size: 0.9em; /* Ajuste del tamaño del texto */
+    }
+
+    /* Novedades */
+    .news-gallery {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .news-item {
+        width: 100%; /* Ajustar el ancho de los elementos de novedades */
+        margin-bottom: 20px;
+    }
+
+    .news-item img {
+        width: 100%; /* Ajustar tamaño de imagen */
+    }
+
+    .news-info {
+        text-align: center;
+    }
+
+    /* Testimonios */
+    .testimonial-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonial {
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    /* Footer */
+    .contact-info, .about-us {
+        text-align: center;
+    }
+
+    .contact-info p, .about-us p {
+        margin: 15px 0;
+    }
+}

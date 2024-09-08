@@ -1,0 +1,52 @@
+
+/* Estilos para la sección de testimonios */
+
+
+.testimonials {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+/* Título de la sección de testimonios */
+
+.testimonials h2 {
+    text-align: center;
+    color: #7e7979; 
+    margin-bottom: 50px;
+}
+
+/* Contenedor de testimonios en horizontal */
+.testimonials .testimonial-container {
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+    gap: 20px;
+}
+
+/* Estilo para cada testimonio */
+.testimonial {
+    background-color: #ffffff; 
+    border-radius: 0px; 
+    padding: 40px; 
+    width: 100%; 
+    max-width: 300px;
+    box-sizing: border-box; 
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+
+/* Estilo para el texto dentro de cada testimonio */
+.testimonial p {
+    font-style: italic; 
+    color: #555; 
+    margin: 0; 
+}
+
+/* Estilo para el nombre en negrita */
+.testimonial strong {
+    color: #333; 
+}
+

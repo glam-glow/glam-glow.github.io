@@ -1,0 +1,90 @@
+/* Estilos del encabezado */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; 
+}
+
+/* Estilos para el contenido principal */
+main {
+    padding: 20px;
+}
+
+/* Estilos de la sección de bienvenida */
+.welcome {
+    text-align: left;
+    margin-bottom: 80px; 
+}
+
+/* Estilo para el título de la sección de bienvenida */
+
+.welcome h2 {
+    background-color: #E3A8BF; 
+    color: #333;
+    border-radius: 0px; 
+    padding: 20px 40px; 
+    display: inline-block; 
+    font-size: 3.5em; 
+    margin: 0; 
+}
+
+/* Estilos para la imagen principal y el texto al costado */
+.main-image-text {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 70px; 
+}
+
+
+/* Ajustes para la imagen */
+.main-image-text img {
+    width: 50%; 
+    max-width: 60%; 
+    height: auto; 
+}
+
+/* Ajustes para el cuadro de texto al lado de la imagen */
+.text-side {
+    padding: 70px; 
+    border-radius: 10px; 
+    background-color: #bbb7b7; 
+    margin-left: 20px; 
+    flex: 4; 
+}
+
+/* Estilos para el texto dentro del cuadro */
+.text-side p {
+    color: #666; 
+    margin: 0; 
+}
+
+/* Estilos para la sección de novedades */
+.news {
+    text-align: center;
+}
+
+.news-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 20px; 
+}
+
+.news-item {
+    text-align: center; 
+}
+
+.news-item img {
+    width: 150px; 
+    height: auto; 
+    margin: 10px; 
+    border-radius: 5px; 
+}
+
+.news-info {
+    margin-top: 10px; 
+}
+
+

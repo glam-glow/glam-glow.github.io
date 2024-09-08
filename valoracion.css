@@ -1,0 +1,28 @@
+/* Estilos para la sección de valoracion */
+.valoracion {
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+/* Estilo para el título principal */
+.valoracion h2 {
+    font-size: 2em;
+    margin: 0 auto 20px auto; 
+    color: #222021; 
+    background-color: #DFB4B4; 
+    padding: 20px;
+    text-align: left;
+    width: fit-content;
+    max-width: 80%; 
+}
+
+/* Contenedor para los ítems de valoración */
+.valoracion-content {
+    background-color: #DFB4B4; 
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+}
+
+
