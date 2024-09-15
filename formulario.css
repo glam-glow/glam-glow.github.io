@@ -49,3 +49,165 @@ button:hover {
 
 
 
+/* PARA EL HTML NOSOTROS, HTML 3  */
+
+@media (max-width: 1023px) {
+
+    /* Ajuste del logo */
+    .logo img {
+        max-width: 120px; 
+    }
+
+    /* Navegación */
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    /* Sección de Bienvenida */
+    .welcome h2 {
+        text-align: center;
+        font-size: 1.5em; /
+    }
+
+    /* Imagen Principal y Texto al Costado */
+    .main-image-text {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-image-text img {
+        width: 90%; /* Ajuste para tablets */
+        max-width: 600px; 
+    }
+
+    .text-side p {
+        text-align: center;
+        font-size: 1em; 
+    }
+
+    /* Novedades */
+    .news-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .news-item {
+        max-width: 100%;
+        margin: 10px;
+    }
+
+    .news-item img {
+        width: 100%;
+    }
+
+    .news-info {
+        text-align: center;
+    }
+
+    /* Testimonios */
+    .testimonial-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonial {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    /* Footer */
+    .contact-info, .about-us {
+        text-align: center;
+    }
+
+    .contact-info p, .about-us p {
+        margin: 20px 0;
+    }
+}
+
+/* Para Teléfonos Móviles (max-width: 767px) */
+@media (max-width: 767px) {
+
+    /* Ajuste del logo */
+    .logo img {
+        max-width: 80px; 
+    }
+
+    /* Navegación */
+    nav ul {
+        text-align: center;
+        padding: 0;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    /* Sección de Bienvenida */
+    .welcome h2 {
+        font-size: 1.2em; 
+    }
+
+    /* Imagen Principal y Texto al Costado */
+    .main-image-text {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-image-text img {
+        width: 100%; 
+    }
+
+    .text-side p {
+        font-size: 0.9em; 
+    }
+
+    /* Novedades */
+    .news-gallery {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .news-item {
+        width: 100%; /* Ajustar el ancho de los elementos de novedades */
+        margin-bottom: 20px;
+    }
+
+    .news-item img {
+        width: 100%; /* Ajustar tamaño de imagen */
+    }
+
+    .news-info {
+        text-align: center;
+    }
+
+    /* Testimonios */
+    .testimonial-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonial {
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    /* Footer */
+    .contact-info, .about-us {
+        text-align: center;
+    }
+
+    .contact-info p, .about-us p {
+        margin: 15px 0;
+    }
+}
