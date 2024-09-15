@@ -1,0 +1,51 @@
+.contacto_contenedor {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    gap: 20px; 
+}
+
+.formulario_items {
+    flex: 1; 
+    padding: 20px; 
+}
+
+.mapa {
+    flex: 1; 
+    padding: 20px; 
+    margin-left: 20px; 
+    text-align: center; 
+}
+
+.input_group {
+    margin-bottom: 15px; 
+}
+
+input, textarea {
+    width: 100%; 
+    padding: 10px;
+    box-sizing: border-box; 
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+button:hover {
+    background-color: #0056b3; 
+}
+
+.mapa iframe {
+    max-width: 100%;
+    border: 0; 
+}
+
+
+

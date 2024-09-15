@@ -1,0 +1,76 @@
+
+/* Estilos para redes sociales*/
+
+.listas_datos {
+    display: flex;
+    flex-direction: column;
+}
+
+.listas_datos_1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; 
+}
+
+.listas_datos_imagen {
+    margin-right: 10px; 
+}
+
+.listas_datos_textos a {
+    text-decoration: none;
+    color: #000; 
+}
+
+.inactive-link {
+    color: #888; 
+}
+
+
+
+/* Estilos para la Sección de Ayuda y Soporte */
+.ayuda-soporte {
+    padding: 40px 20px;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.ayuda-soporte h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #007bff;
+}
+
+.ayuda-soporte-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.ayuda, .soporte {
+    flex: 1 1 300px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #c5c2c2e5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ayuda-item, .soporte-item {
+    margin-bottom: 20px;
+}
+
+.ayuda-item h4, .soporte-item h4 {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.ayuda-item p, .soporte-item p {
+    font-size: 1em;
+    color: #666;
+}
+
+.soporte-item p strong {
+    color: #007bff;
+    font-weight: bold;
+}
+
